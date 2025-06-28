@@ -1,0 +1,83 @@
+# === OS/System ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Bytecode and Jupyter Checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+.Python
+
+# Conda environment files (if auto-created)
+conda-meta/
+*.conda
+*.egg-info/
+*.egg
+
+# === VS Code ===
+.vscode/
+.code-workspace
+
+# === Logs and Data ===
+*.log
+*.csv
+*.tsv
+*.sqlite3
+*.db
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# === Secrets ===
+.env
+.env.*
+
+# === Build / Dist ===
+build/
+dist/
+*.egg-info/
+*.manifest
+*.spec
+*.lock
+*.tar.gz
+*.zip
+
+# === Docker ===
+*.pid
+*.pid.lock
+docker-compose.override.yml
+
+# === Jupyter Notebook and IPython ===
+*.ipynb_checkpoints
+.ipynb_checkpoints/
+*.ipynb~
+profile_default/
+.ipython/
+
+# === Misc ===
+*.bak
+*.tmp
+*.old
+*.orig
+*.rej
+*.sublime-workspace
+*.sublime-project
+
+# === Node (if using JS tools) ===
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log

@@ -1,5 +1,3 @@
----
-
 ```markdown
 # 🗂️ Topic Tracker App
 
